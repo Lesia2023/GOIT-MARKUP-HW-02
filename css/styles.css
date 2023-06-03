@@ -1,8 +1,23 @@
 body{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     color: #000000
     
 }
+.heder{
+    position: absolute;
+     width: 1600px;
+     height: 80px;
+     background-color: #FFFFFF;
+}
+
+.men-title{
+    width: 1600px;
+    height: 600px;
+    background-color: #2F303A;
+}
+
+
+
 .link{
     text-decoration: none;
 }
@@ -15,7 +30,21 @@ body{
         letter-spacing: 0.03em;
               
    }
+
+
+.link-list{
+    text-decoration: none;
+
+}
    
+.link-list:hover,
+.link-list:focus{
+    color:#2196F3
+
+}
+
+
+
 .list{
     list-style: none;
     color: #212121; 
@@ -36,13 +65,21 @@ body{
 }
 
 
+
 .mail{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.mail:hover,
+.mail:focus{
     color: #2196F3;
 }
+
+
 .contact-number{
     font-weight: 500;
     font-size: 14px;
@@ -58,6 +95,7 @@ body{
      text-align: center;
      letter-spacing: 0.06em;
      text-transform: uppercase;
+     color: #FFFFFF;
 }
 
 
@@ -71,7 +109,18 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    cursor: pointer;
+    position: absolute;
+    width: 216px; 
+    left: 692px;
+    top: 430px;
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
 }
+
 
 h3{
     font-family: 'Roboto';
@@ -84,7 +133,6 @@ h3{
     color: #212121;
 }
 .list-text {
-    
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -126,16 +174,18 @@ h3{
     color: #757575;
 }
 
-
-
-
-
 .address-nov{
     
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
+      
+}
+footer{ 
+    width: 1600px;
+    height: 252px;
+    background: #2F303A;
+    color: #FFFFFF
     
-        
 }
