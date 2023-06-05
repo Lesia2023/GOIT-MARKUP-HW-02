@@ -1,19 +1,41 @@
-body{
-    font-family: 'Roboto',sans-serif;
-    color: #000000
-    
+
+:root {
+    --prinory-text-color:#212121;
+    --accent-color:#757575;
+    --logo-color:#000000;
+    --tetriory-color:#ffffff;
+    --prinory-backround-color:#F5F4FA;
+    --accent-backround-color:#ffffff;
+    --title-backround-color:#2f303a;
+    --button-backround-color:#2196f3;
+    --accent-lin-color:#2196F3;
 }
+
+body{
+    font-family:'Roboto',sans-serif;
+    color: var(--prinory-text-color);
+     font-style: normal;
+}
+.link-logo{
+    font-family: 'Raleway';
+    color: var(--logo-color);
+     text-decoration: none;
+
+}
+
+
 .heder{
     position: absolute;
      width: 1600px;
      height: 80px;
-     background-color: #FFFFFF;
+     background-color: var(--accent-backround-color);
+     
 }
 
 .men-title{
     width: 1600px;
     height: 600px;
-    background-color: #2F303A;
+    background-color: var(--title-backround-color);
 }
 
 
@@ -23,45 +45,47 @@ body{
 }
 
 .link{
-        font-family: 'Raleway';
+        font-family: 'Raleway',sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
         letter-spacing: 0.03em;
-              
+          
    }
+
 
 
 .link-list{
     text-decoration: none;
-
+     color:var(--prinory-text-color);
 }
    
 .link-list:hover,
 .link-list:focus{
-    color:#2196F3
+    color: var(--accent-lin-color)
 
 }
-
+.list.link-list.current{
+    color: var(--accent-lin-color);
+}
 
 
 .list{
     list-style: none;
-    color: #212121; 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    
+    color: var(--accent-color);
 }
 
 
 .nav-list{
-         font-weight: 500;
+        font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.1;
         letter-spacing: 0.02em;
-        color: #212121;
+        color: var(--prinory-text-color);
 }
 
 
@@ -71,12 +95,12 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--accent-color);
 }
 
 .mail:hover,
 .mail:focus{
-    color: #2196F3;
+    color: var(--accent-lin-color);
 }
 
 
@@ -85,7 +109,7 @@ body{
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--accent-color);
 }
 
 .title{
@@ -95,7 +119,7 @@ body{
      text-align: center;
      letter-spacing: 0.06em;
      text-transform: uppercase;
-     color: #FFFFFF;
+     color: var(--tetriory-color);
 }
 
 
@@ -108,7 +132,7 @@ body{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var (--title-backround-color);
     cursor: pointer;
     position: absolute;
     width: 216px; 
@@ -120,32 +144,50 @@ body{
     border-radius: 4px;
 
 }
+.list-button{
+ font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--prinory-text-color);
+}
+
+.list-button:hover,
+.list-button:focus {
+    color: var(--tetriory-color);
+    background: #2196F3;
+}
 
 
-h3{
-    font-family: 'Roboto';
-    font-weight: 700;
+
+
+
+
+
+.list-title{
+     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
-    color: #212121;
+    color: var(--title-backround-color);
 }
 .list-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #757575;
+    color:var(--accent-color);
 }
 .list-porf {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--prinory-text-color);
 }
+
 
 .work{
      font-weight: 700;
@@ -153,25 +195,32 @@ h3{
      line-height: 1.2;
      text-align: center;
      letter-spacing: 0.03em;
-     color: #212121;
+     color:var(--prinory-text-color);
+     background:var(--prinory-backround-color); 
 }
+    
 
 
 
 .list-comanda{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #212121;
+font-weight: 500; 
+ font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--prinory-text-color);
 }
+
+.tem{
+    background-color: var(--prinory-backround-color);
+}
+
 
 .list-profession{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--accent-color);
 }
 
 .address-nov{
@@ -185,7 +234,7 @@ h3{
 footer{ 
     width: 1600px;
     height: 252px;
-    background: #2F303A;
-    color: #FFFFFF
-    
+    color: var(--tetriory-color);
+    background-color: var(--title-backround-color);
+  
 }
