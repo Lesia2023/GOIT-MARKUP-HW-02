@@ -32,19 +32,13 @@ body{
 
 
 
-
-
 .heder{
     position: absolute;
-     width: 1600px;
-     height: 80px;
-     background-color: var(--accent-backround-color);
+    background-color: var(--accent-backround-color);
      
 }
 
 .men-title{
-    width: 1600px;
-    height: 600px;
     background-color: var(--title-backround-color);
 }
 
@@ -79,6 +73,21 @@ body{
     color: var(--accent-lin-color);
 }
 
+.link-list-contacts{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.link-list-contacts:hover,
+.link-list-contacts:focus {
+   color: var(--accent-lin-color);
+}
+
+
 
 .list{
     list-style: none;
@@ -86,9 +95,8 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--accent-color);
+    color: var(--prinory-text-color);
 }
-
 
 .nav-list{
         font-weight: 500;
@@ -138,55 +146,49 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
-    color: var (--title-backround-color);
-    cursor: pointer;
-    position: absolute;
-    width: 216px; 
-    left: 692px;
-    top: 430px;
-
-    background: var(--button-backround-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-
-
-
-
+    color: var(--tetriory-color);
+    background-color: var(--button-backround-color);
+    
 }
 .list-button{
- font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--prinory-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: var(--prinory-text-color);
+    background-color: var(--prinory-backround-color);
 }
 
 .list-button:hover,
 .list-button:focus {
     color: var(--tetriory-color);
-    background: var(--button-backround-color);
+    background-color: var(--button-backround-color);
 }
 
 .list-title{
-     font-weight: 700;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--title-backround-color);
+    color: var(--prinory-text-color);
 }
 .list-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color:var(--accent-color);
+    color: var(--accent-color);
 }
+
+
+.list-portfolio{
+    text-decoration:none ;
+    list-style: none;
+
+}
+ 
 .list-porf {
     font-weight: 700;
     font-size: 18px;
@@ -194,7 +196,13 @@ color: var(--prinory-text-color);
     letter-spacing: 0.06em;
     color: var(--prinory-text-color);
 }
-
+.list-phase {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
 
 .work{
      font-weight: 700;
@@ -202,17 +210,17 @@ color: var(--prinory-text-color);
      line-height: 1.2;
      text-align: center;
      letter-spacing: 0.03em;
-     color:var(--prinory-text-color);
-     background:var(--prinory-backround-color); 
+     color: var(--prinory-text-color);
+     background-color: var(--prinory-backround-color); 
 }
     
 
 .list-comanda{
-font-weight: 500; 
- font-size: 16px;
-line-height: 1.2;
-letter-spacing: 0.03em;
-color: var(--prinory-text-color);
+  font-weight: 500; 
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+   color: var(--prinory-text-color);
 }
 
 .tem{
@@ -228,20 +236,26 @@ color: var(--prinory-text-color);
     color: var(--accent-color);
 }
 
+
+
+
 .address-nov{
-    
-        font-weight: 400;
+        font-style: normal;
+         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
         color: var(--tetriory-color);
 }
 footer{ 
-    width: 1600px;
-    height: 252px;
+    
     background-color: var(--title-backround-color);
     color: var(--tetriory-color);
 }
+
+
+
+
 .port-footer{
     color: var(--tetriory-color);
 }
@@ -250,9 +264,10 @@ footer{
 
 .adress-link{
         text-decoration: none;
+        font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.7;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
 }
