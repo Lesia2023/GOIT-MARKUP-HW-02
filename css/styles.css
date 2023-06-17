@@ -18,6 +18,7 @@ body{
      font-style: normal;
 }
 .link-logo{
+
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -37,6 +38,7 @@ body{
     background-color: var(--accent-backround-color);
      
 }
+
 
 .men-title{
     background-color: var(--title-backround-color);
@@ -90,12 +92,27 @@ body{
 
 
 .list{
+display: flex;
+justify-content: flex-start;
+margin: 50px;
+
+
+
     list-style: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--prinory-text-color);
+
+
+
+
+
+
+
+
+
 }
 
 .nav-list{
@@ -143,6 +160,14 @@ body{
 
 
 .button-service{
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+
+
+
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -167,6 +192,8 @@ body{
 }
 
 .list-title{
+    margin: 15px;;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -175,12 +202,26 @@ body{
     color: var(--prinory-text-color);
 }
 .list-text {
+    padding: 15px 15px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
+
+.list-img{
+    width: 370px;
+    left: 215px;
+    top: 1058px;
+
+
+    
+
+}
+
+
+
 
 
 .list-portfolio{
@@ -205,17 +246,20 @@ body{
 }
 
 .work{
+
+
      font-weight: 700;
      font-size: 36px;
      line-height: 1.2;
      text-align: center;
      letter-spacing: 0.03em;
      color: var(--prinory-text-color);
-     background-color: var(--prinory-backround-color); 
+    
 }
     
 
 .list-comanda{
+
   font-weight: 500; 
   font-size: 16px;
   line-height: 1.2;
